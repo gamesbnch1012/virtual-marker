@@ -1,0 +1,23 @@
+=================================================
+THIS IS MY FIRST PEICE OF SOFTWARE... so, yeah...
+=================================================
+
+What is this thing you ask?
+Well, Virtual Marker is a tiny software useful for making specific points on the screen.
+Especially for the situation when you need to remember the location of something and you need to keep your finger pointed there to remember the location.
+Virtual Marker will (probably) solve that issue and remember the location of stuff easily.
+
+============================================================================
+THINGS ARE GONNA GO TECHNICAL HERE, SO IGNORE THIS IF YOU DON'T DO CODING...
+============================================================================
+This software uses Visual Basic (VB.NET)
+Basically, it just takes location of your mouse and applies it to the marker location.
+This is the code:
+
+Dim mouselocX as String
+Dim mouselocY as String
+mouselocX = Cursor.Position.X
+mouselocY = Cursor.Position.Y
+ThisIsAForm.Location = New.Point(mouselocX,mouselocY)                                  [Here "ThisIsAForm" is... you gussed it... A Form. This form contains the marker]
+
+THIS IS MY FIRST PEICE OF SOFTWARE... so, yeah...
